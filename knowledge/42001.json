@@ -1,0 +1,537 @@
+{
+    "organizations": [
+        {
+            "name": "organization",
+            "description": "The entity that establishes, implements, maintains and continually improves the AI management system.",
+            "source_text": "This document specifies the requirements and provides guidance for establishing, implementing, maintaining and continually improving an AI (artificial intelligence) management system within the context of an organization."
+        }
+    ],
+    "departments": [],
+    "roles": [
+        {
+            "name": "top management",
+            "description": "The highest-level leadership responsible for directing and controlling the organization and providing resources for the AI management system.",
+            "source_text": "Top management shall demonstrate leadership and commitment with respect to the AI management system by:"
+        },
+        {
+            "name": "governing body",
+            "description": "The body accountable for the performance and conformance of the organization.",
+            "source_text": "person or group of people who are accountable for the performance and conformance of the organization"
+        },
+        {
+            "name": "AI impact assessors",
+            "description": "A role included among AI producer roles that assess AI system impacts.",
+            "source_text": "AI producers, including AI developers, AI designers, AI operators, AI testers and evaluators, AI deployers, AI human factor professionals, domain experts, AI impact assessors, procurers, AI governance and oversight professionals;"
+        },
+        {
+            "name": "AI governance and oversight professionals",
+            "description": "A role included among AI producer roles that provides governance and oversight for AI systems.",
+            "source_text": "AI producers, including AI developers, AI designers, AI operators, AI testers and evaluators, AI deployers, AI human factor professionals, domain experts, AI impact assessors, procurers, AI governance and oversight professionals;"
+        }
+    ],
+    "people": [],
+    "interested_parties": [
+        {
+            "name": "interested party",
+            "description": "A person or organization that can affect, be affected by, or perceive itself to be affected by a decision or activity.",
+            "source_text": "person or organization (3.1) that can affect, be affected by, or perceive itself to be affected by a decision or activity"
+        },
+        {
+            "name": "relevant authorities",
+            "description": "Authorities such as policymakers and regulators that can be relevant interested parties for AI systems.",
+            "source_text": "AI subjects, including data subjects and other subjects;\n—\trelevant authorities, including policymakers and regulators."
+        },
+        {
+            "name": "users",
+            "description": "Interested parties that use the AI system and may require information, instructions, and notifications.",
+            "source_text": "The organization should determine and provide the necessary information to users of the system."
+        },
+        {
+            "name": "customers",
+            "description": "Interested parties whose expectations and needs must be considered when supplying AI-related products or services.",
+            "source_text": "The organization should ensure that its responsible approach to the development and use of AI systems considers their customer expectations and needs."
+        }
+    ],
+    "suppliers": [
+        {
+            "name": "suppliers",
+            "description": "Third parties that provide services, products, materials, datasets, models, or other AI system components.",
+            "source_text": "Organizations developing or using an AI system can utilize suppliers in a number of ways, from sourcing datasets, machine learning algorithms or models, or other components of a system such as software libraries, to an entire AI system itself for use on its own or as part of another product (e.g. a vehicle)."
+        }
+    ],
+    "ai_systems": [
+        {
+            "name": "AI system",
+            "description": "A system that is developed, provided or used within the organization and is subject to the AI management system.",
+            "source_text": "This document is intended for use by an organization providing or using products or services that utilize AI systems."
+        },
+        {
+            "name": "AI management system",
+            "description": "The set of interrelated or interacting elements used to establish AI policy, objectives, and processes to achieve them.",
+            "source_text": "set of interrelated or interacting elements of an organization (3.1) to establish policies (3.5) and objectives (3.6), as well as processes (3.8) to achieve those objectives"
+        },
+        {
+            "name": "AI system impact assessment",
+            "description": "A formal documented process for identifying, evaluating and addressing impacts from AI systems on individuals and societies.",
+            "source_text": "formal, documented process by which the impacts on individuals, groups of individuals, or both, and societies are identified, evaluated and addressed by an organization developing, providing or using products or services utilizing artificial intelligence"
+        }
+    ],
+    "assets": [
+        {
+            "name": "documented information",
+            "description": "Information that must be controlled and maintained as part of the management system, including records and evidence.",
+            "source_text": "information required to be controlled and maintained by an organization (3.1) and the medium on which it is contained"
+        },
+        {
+            "name": "data resources",
+            "description": "Data used in the AI system that should be documented as part of resource identification.",
+            "source_text": "As part of resource identification, the organization should document information about the data resources utilized for the AI system."
+        },
+        {
+            "name": "tooling resources",
+            "description": "Tools and related resources used for the AI system that should be documented as part of resource identification.",
+            "source_text": "As part of resource identification, the organization should document information about the tooling resources utilized for the AI system."
+        },
+        {
+            "name": "system and computing resources",
+            "description": "Hardware, processing, network and storage resources used for the AI system that should be documented.",
+            "source_text": "As part of resource identification, the organization should document information about the system and computing resources utilized for the AI system."
+        },
+        {
+            "name": "human resources",
+            "description": "People and their competences used for AI activities across the AI system life cycle.",
+            "source_text": "As part of resource identification, the organization should document information about the human resources and their competences utilized for the development, deployment, operation, change management, maintenance, transfer and decommissioning, as well as verification and integration of the AI system."
+        }
+    ],
+    "applications": [],
+    "technologies": [],
+    "ai_models": [],
+    "datasets": [],
+    "business_processes": [],
+    "lifecycle_stages": [
+        {
+            "name": "AI system life cycle",
+            "description": "The stages across which the organization defines, documents, assesses, develops, deploys, operates and decommissions AI systems.",
+            "source_text": "the development, deployment, operation, change management, maintenance, transfer and decommissioning, as well as verification and integration of the AI system."
+        }
+    ],
+    "risks": [
+        {
+            "name": "AI risks",
+            "description": "Risks arising from AI systems that the organization must assess, treat and monitor.",
+            "source_text": "The organization shall establish and maintain AI risk criteria that support:"
+        },
+        {
+            "name": "residual AI risks",
+            "description": "AI risks remaining after risk treatment that require management approval.",
+            "source_text": "The organization shall obtain approval from the designated management for the AI risk treatment plan and for acceptance of the residual AI risks."
+        }
+    ],
+    "threats": [
+        {
+            "name": "data poisoning",
+            "description": "An AI-specific security threat involving manipulation of data used by an AI system.",
+            "source_text": "security threats specific to AI systems include data poisoning, model stealing or model inversion attacks;"
+        },
+        {
+            "name": "model stealing",
+            "description": "An AI-specific security threat involving theft or extraction of a model.",
+            "source_text": "AI-specific information security threats include, but are not limited to data poisoning, model stealing and model inversion attacks."
+        },
+        {
+            "name": "model inversion attacks",
+            "description": "An AI-specific security threat involving inference of sensitive training information from a model.",
+            "source_text": "AI-specific information security threats include, but are not limited to data poisoning, model stealing and model inversion attacks."
+        }
+    ],
+    "vulnerabilities": [],
+    "incidents": [
+        {
+            "name": "incidents",
+            "description": "Events related to AI systems that may require communication to users and other interested parties.",
+            "source_text": "The organization should determine and document a plan for communicating incidents to users of the system."
+        }
+    ],
+    "controls": [
+        {
+            "name": "statement of applicability",
+            "description": "Documentation of necessary controls and justification for their inclusion or exclusion.",
+            "source_text": "documentation of all necessary controls (3.23) and justification for inclusion or exclusion of controls"
+        },
+        {
+            "name": "control",
+            "description": "A measure that maintains and/or modifies risk.",
+            "source_text": "measure that maintains and/or modifies risk (3.7)"
+        },
+        {
+            "name": "AI policy",
+            "description": "A formal policy for the development or use of AI systems that sets management direction and supports AI objectives.",
+            "source_text": "Top management shall establish an AI policy that:"
+        },
+        {
+            "name": "AI roles and responsibilities",
+            "description": "A control requiring roles and responsibilities for AI to be defined and allocated.",
+            "source_text": "Roles and responsibilities for AI should be defined and allocated according to the needs of the organization."
+        },
+        {
+            "name": "Reporting of concerns",
+            "description": "A control requiring a process to report concerns about the organization’s role with respect to an AI system throughout its life cycle.",
+            "source_text": "The organization should define and put in place a process to report concerns about the organization’s role with respect to an AI system throughout its life cycle."
+        },
+        {
+            "name": "AI system impact assessment process",
+            "description": "A control requiring a process to assess AI system impacts throughout the life cycle.",
+            "source_text": "The organization should establish a process to assess the potential consequences for individuals or groups of individuals, or both, and societies that can result from the AI system throughout its life cycle."
+        },
+        {
+            "name": "Processes for responsible design and development of AI systems",
+            "description": "A control requiring documented processes for responsible AI system design and development.",
+            "source_text": "The organization should define and document the specific processes for the responsible design and development of the AI system."
+        },
+        {
+            "name": "AI system requirements and specification",
+            "description": "A control requiring requirements for new AI systems or material enhancements to be specified and documented.",
+            "source_text": "The organization should specify and document requirements for new AI systems or material enhancements to existing systems."
+        },
+        {
+            "name": "AI system verification and validation",
+            "description": "A control requiring verification and validation measures and criteria for their use to be defined and documented.",
+            "source_text": "The organization should define and document verification and validation measures for the AI system and specify criteria for their use."
+        },
+        {
+            "name": "AI system deployment",
+            "description": "A control requiring a deployment plan and meeting requirements before deployment.",
+            "source_text": "The organization should document a deployment plan and ensure that appropriate requirements are met prior to deployment."
+        },
+        {
+            "name": "AI system operation and monitoring",
+            "description": "A control requiring ongoing operation and monitoring elements including repairs, updates and support.",
+            "source_text": "The organization should define and document the necessary elements for the ongoing operation of the AI system. At the minimum this should include system and performance monitoring, repairs, updates and support."
+        },
+        {
+            "name": "AI system recording of event logs",
+            "description": "A control requiring event logs to be recorded during relevant phases of the AI system life cycle.",
+            "source_text": "The organization should determine at which phases of the AI system life cycle, record keeping of event logs should be enabled, but at the minimum when the AI system is in use."
+        },
+        {
+            "name": "Data quality for AI systems",
+            "description": "A control requiring data quality requirements to be defined and met for AI development and operation.",
+            "source_text": "The organization should define and document requirements for data quality and ensure that data used to develop and operate the AI system meet those requirements."
+        },
+        {
+            "name": "Data provenance",
+            "description": "A control requiring a process for recording the provenance of data used in AI systems.",
+            "source_text": "The organization should define and document a process for recording the provenance of data used in its AI systems over the life cycles of the data and the AI system."
+        },
+        {
+            "name": "Data preparation",
+            "description": "A control requiring criteria for selecting data preparation methods to be defined and documented.",
+            "source_text": "The organization shall define and document its criteria for selecting data preparations and the data preparation methods to be used."
+        },
+        {
+            "name": "System documentation and information for users",
+            "description": "A control requiring necessary information to be provided to users of the AI system.",
+            "source_text": "The organization should determine and provide the necessary information to users of the system."
+        },
+        {
+            "name": "External reporting",
+            "description": "A control requiring capabilities for interested parties to report adverse impacts of the system.",
+            "source_text": "The organization should provide capabilities for interested parties to report adverse impacts of the system."
+        },
+        {
+            "name": "Communication of incidents",
+            "description": "A control requiring a documented plan for communicating incidents to users.",
+            "source_text": "The organization should determine and document a plan for communicating incidents to users of the system."
+        },
+        {
+            "name": "Information for interested parties",
+            "description": "A control requiring obligations to report AI system information to interested parties to be determined and documented.",
+            "source_text": "The organization should determine and document its obligations to reporting information about the AI system to interested parties."
+        },
+        {
+            "name": "Processes for responsible use of AI systems",
+            "description": "A control requiring documented processes for responsible AI system use.",
+            "source_text": "The organization should define and document the processes for the responsible use of AI systems."
+        },
+        {
+            "name": "Objectives for responsible use of AI system",
+            "description": "A control requiring objectives to guide responsible use of AI systems.",
+            "source_text": "The organization should identify and document objectives to guide the responsible use of AI systems."
+        },
+        {
+            "name": "Intended use of the AI system",
+            "description": "A control requiring AI systems to be used according to intended uses and accompanying documentation.",
+            "source_text": "The organization should ensure that the AI system is used according to the intended uses of the AI system and its accompanying documentation."
+        },
+        {
+            "name": "Allocating responsibilities",
+            "description": "A control requiring responsibilities across the AI system life cycle to be allocated between parties.",
+            "source_text": "The organization should ensure that responsibilities within their AI system life cycle are allocated between the organization, its partners, suppliers, customers and third parties."
+        },
+        {
+            "name": "Suppliers",
+            "description": "A control requiring a process to ensure supplier-provided services, products or materials align with responsible AI use.",
+            "source_text": "The organization should establish a process to ensure that its usage of services, products or materials provided by suppliers aligns with the organization’s approach to the responsible development and use of AI systems."
+        },
+        {
+            "name": "Customers",
+            "description": "A control requiring customer expectations and needs to be considered in responsible AI development and use.",
+            "source_text": "The organization should ensure that its responsible approach to the development and use of AI systems considers their customer expectations and needs."
+        }
+    ],
+    "policies": [
+        {
+            "name": "AI policy",
+            "description": "The organization’s formal policy for AI development or use.",
+            "source_text": "Top management shall establish an AI policy that:"
+        }
+    ],
+    "procedures": [
+        {
+            "name": "AI risk assessment process",
+            "description": "A defined process for assessing AI risks in a consistent and comparable way.",
+            "source_text": "The organization shall define and establish an AI risk assessment process that:"
+        },
+        {
+            "name": "AI risk treatment process",
+            "description": "A defined process for selecting and implementing controls to treat AI risks.",
+            "source_text": "Taking the risk assessment results into account, the organization shall define an AI risk treatment process to:"
+        },
+        {
+            "name": "internal audit programme",
+            "description": "A planned programme for conducting internal audits, including frequency, methods, responsibilities, planning requirements and reporting.",
+            "source_text": "The organization shall plan, establish, implement and maintain (an) audit programme(s), including the frequency, methods, responsibilities, planning requirements and reporting."
+        },
+        {
+            "name": "management review",
+            "description": "A planned top-management review of the AI management system to ensure suitability, adequacy and effectiveness.",
+            "source_text": "Top management shall review the organization’s AI management system, at planned intervals, to ensure its continuing suitability, adequacy and effectiveness."
+        }
+    ],
+    "standards": [
+        {
+            "name": "ISO/IEC 22989:2022",
+            "description": "The normative reference for AI concepts and terminology used by the standard.",
+            "source_text": "ISO/IEC 22989:2022, Information technology — Artificial intelligence — Artificial intelligence concepts and terminology"
+        },
+        {
+            "name": "ISO/IEC 23894",
+            "description": "An AI risk management standard referenced for guidance on risk management.",
+            "source_text": "Guidance on how to implement risk management for organizations developing, providing or using AI products, systems and services is provided in ISO/IEC 23894."
+        },
+        {
+            "name": "ISO/IEC 27001",
+            "description": "An information security management systems standard referenced for integration with AI governance.",
+            "source_text": "ISO/IEC 27001: In most contexts, security is key to achieving the objectives of the organization with the AI system."
+        },
+        {
+            "name": "ISO/IEC 27701",
+            "description": "A privacy information management standard referenced for integration with AI governance.",
+            "source_text": "ISO/IEC 27701: In many context and application domains, PIIs are processed by AI systems."
+        },
+        {
+            "name": "ISO 9001",
+            "description": "A quality management standard referenced as complementary to AI management system implementation.",
+            "source_text": "ISO 9001: For many organizations, conformity to ISO 9001 is a key sign that they are customer-oriented and genuinely concerned about internal effectiveness."
+        },
+        {
+            "name": "ISO/IEC 38507",
+            "description": "A governance standard referenced for guidance on governing AI use by organizations and developing AI policy.",
+            "source_text": "ISO/IEC 38507 provides guidance for members of the governing body of an organization to enable and govern the AI system throughout its life cycle."
+        },
+        {
+            "name": "ISO/IEC 38500:2015",
+            "description": "An IT governance standard referenced for governance of AI-related IT activities.",
+            "source_text": "ISO/IEC 38500:2015, Information technology — Governance of IT for the organization"
+        }
+    ],
+    "legal_requirements": [
+        {
+            "name": "applicable legal requirements",
+            "description": "Legal requirements that the organization must consider for the AI management system, including prohibited uses of AI.",
+            "source_text": "external context related considerations such as:\n1)\tapplicable legal requirements, including prohibited uses of AI;"
+        },
+        {
+            "name": "contracts",
+            "description": "Contractual requirements that may influence the AI policy and AI system operations.",
+            "source_text": "The AI policy should be informed by:\n—\tlegal requirements, including contracts;"
+        },
+        {
+            "name": "jurisdictions",
+            "description": "Applicable jurisdictions that must be considered in AI system impact assessments and incident communication.",
+            "source_text": "The AI system impact assessment shall take into account the specific technical and societal context where the AI system is deployed and applicable jurisdictions."
+        }
+    ],
+    "objectives": [
+        {
+            "name": "AI objectives",
+            "description": "Results the organization sets for the AI management system consistent with the AI policy.",
+            "source_text": "In the context of AI management systems (3.4), AI objectives are set by the organization (3.1), consistent with the AI policy (3.5), to achieve specific results."
+        },
+        {
+            "name": "continual improvement",
+            "description": "A recurring activity to enhance the performance of the AI management system.",
+            "source_text": "recurring activity to enhance performance (3.11)"
+        },
+        {
+            "name": "responsible development of AI systems",
+            "description": "An objective to guide the design and development of AI systems responsibly.",
+            "source_text": "The organization should identify and document objectives to guide the responsible development of AI systems, and take those objectives into account and integrate measures to achieve them in the development life cycle."
+        },
+        {
+            "name": "responsible use of AI systems",
+            "description": "An objective to guide the responsible use of AI systems.",
+            "source_text": "The organization should identify and document objectives to guide the responsible use of AI systems."
+        }
+    ],
+    "resources": [
+        {
+            "name": "resources",
+            "description": "Resources needed for establishing, implementing, maintaining and continually improving the AI management system.",
+            "source_text": "The organization shall determine and provide the resources needed for the establishment, implementation, maintenance and continual improvement of the AI management system."
+        },
+        {
+            "name": "competence",
+            "description": "The ability to apply knowledge and skills to achieve intended results.",
+            "source_text": "ability to apply knowledge and skills to achieve intended results"
+        },
+        {
+            "name": "AI expertise",
+            "description": "Specialist interdisciplinary expertise needed to assess, develop and deploy AI systems.",
+            "source_text": "A selection of dedicated specialists with interdisciplinary skill sets and expertise in assessing, developing and deploying AI systems is needed."
+        }
+    ],
+    "documents": [
+        {
+            "name": "scope",
+            "description": "The documented boundaries and applicability of the AI management system.",
+            "source_text": "The scope shall be available as documented information."
+        },
+        {
+            "name": "AI risk treatment plan",
+            "description": "The documented plan for treating AI risks and addressing residual risks.",
+            "source_text": "g)\tformulate an AI risk treatment plan."
+        },
+        {
+            "name": "AI system technical documentation",
+            "description": "Technical documentation provided to relevant interested parties about the AI system.",
+            "source_text": "The organization should determine what AI system technical documentation is needed for each relevant category of interested parties, such as users, partners, supervisory authorities, and provide the technical documentation to them in the appropriate form."
+        },
+        {
+            "name": "deployment plan",
+            "description": "The documented plan for deploying the AI system and meeting requirements before deployment.",
+            "source_text": "The organization should document a deployment plan and ensure that appropriate requirements are met prior to deployment."
+        }
+    ],
+    "evidence": [
+        {
+            "name": "evidence of competence",
+            "description": "Documented information demonstrating that persons are competent.",
+            "source_text": "Appropriate documented information shall be available as evidence of competence."
+        },
+        {
+            "name": "evidence of the results of monitoring",
+            "description": "Documented information demonstrating monitoring, measurement, analysis and evaluation results.",
+            "source_text": "Documented information shall be available as evidence of the results."
+        },
+        {
+            "name": "evidence of the implementation of the audit programme(s) and the audit results",
+            "description": "Documented information demonstrating that internal audits were performed and what they found.",
+            "source_text": "Documented information shall be available as evidence of the implementation of the audit programme(s) and the audit results."
+        },
+        {
+            "name": "evidence of the results of management reviews",
+            "description": "Documented information demonstrating the outcomes of management reviews.",
+            "source_text": "Documented information shall be available as evidence of the results of management reviews."
+        },
+        {
+            "name": "evidence of the nature of the nonconformities and any subsequent actions taken",
+            "description": "Documented information showing nonconformities and actions taken in response.",
+            "source_text": "Documented information shall be available as evidence of:\n—\tthe nature of the nonconformities and any subsequent actions taken;"
+        },
+        {
+            "name": "results of AI system impact assessments",
+            "description": "Documented outputs of AI system impact assessments retained for a defined period.",
+            "source_text": "The organization shall retain documented information of the results of all AI system impact assessments."
+        }
+    ],
+    "audits": [
+        {
+            "name": "audit",
+            "description": "A systematic and independent process for obtaining evidence and evaluating it objectively.",
+            "source_text": "systematic and independent process (3.8) for obtaining evidence and evaluating it objectively to determine the extent to which the audit criteria are fulfilled"
+        },
+        {
+            "name": "internal audit",
+            "description": "An audit conducted by the organization itself or on its behalf to verify conformance and effectiveness.",
+            "source_text": "An internal audit is conducted by the organization (3.1) itself, or by an external party on its behalf."
+        }
+    ],
+    "monitoring_activities": [
+        {
+            "name": "monitoring",
+            "description": "Determining the status of a system, process or activity.",
+            "source_text": "determining the status of a system, a process (3.8) or an activity"
+        },
+        {
+            "name": "monitoring, measurement, analysis and evaluation",
+            "description": "The activity set used to determine performance and effectiveness of the AI management system.",
+            "source_text": "The organization shall determine:\n—\twhat needs to be monitored and measured;\n—\tthe methods for monitoring, measurement, analysis and evaluation, as applicable, to ensure valid results;"
+        }
+    ],
+    "ai_principles": [],
+    "ethical_principles": [
+        {
+            "name": "fairness",
+            "description": "An AI objective and impact consideration related to avoiding unjust outcomes for persons or groups.",
+            "source_text": "The organization should identify and document objectives to guide the responsible use of AI systems. Some objectives include:\n—\tfairness;"
+        },
+        {
+            "name": "transparency",
+            "description": "An AI objective and impact consideration related to openness about AI systems and their outputs.",
+            "source_text": "Some objectives include:\n—\tfairness;\n—\taccountability;\n—\ttransparency;"
+        },
+        {
+            "name": "explainability",
+            "description": "An AI objective related to providing understandable explanations of factors influencing AI results.",
+            "source_text": "Some objectives include:\n—\tfairness;\n—\taccountability;\n—\ttransparency;\n—\texplainability;"
+        },
+        {
+            "name": "accountability",
+            "description": "An AI objective and governance concern related to responsibility for AI-supported actions and decisions.",
+            "source_text": "Some objectives include:\n—\tfairness;\n—\taccountability;\n—\ttransparency;"
+        },
+        {
+            "name": "privacy",
+            "description": "An AI objective and impact consideration related to protection of personal and sensitive data.",
+            "source_text": "Some objectives include:\n—\tprivacy and security;"
+        },
+        {
+            "name": "safety",
+            "description": "An AI objective and impact consideration related to preventing harm to people, property or the environment.",
+            "source_text": "Some objectives include:\n—\tsafety;"
+        },
+        {
+            "name": "security",
+            "description": "An AI objective and impact consideration related to protection against information and system security threats.",
+            "source_text": "Some objectives include:\n—\tprivacy and security;"
+        },
+        {
+            "name": "human rights",
+            "description": "A potential impact area to consider when assessing effects of AI systems on individuals or groups.",
+            "source_text": "The organization should consider whether an AI system affects:\n—\tthe legal position or life opportunities of individuals;\n—\tthe physical or psychological well-being of individuals;\n—\tuniversal human rights;\n—\tsocieties."
+        }
+    ],
+    "other_entities": [
+        {
+            "name": "information security",
+            "description": "The preservation of confidentiality, integrity and availability of information.",
+            "source_text": "preservation of confidentiality, integrity and availability of information"
+        },
+        {
+            "name": "data quality",
+            "description": "The characteristic of data meeting the organization’s data requirements for a specific context.",
+            "source_text": "characteristic of data that the data meet the organization’s data requirements for a specific context"
+        }
+    ]
+}

@@ -1,4 +1,23 @@
-.venv/
-__pycache__/
-uploads/
+# Environment variables and secrets
+
 .env
+.env.*
+!.env.example
+
+# Python
+
+**pycache**/
+*.py[cod]
+.venv/
+venv/
+
+# Local vector database
+
+vector_db/
+chroma_db/
+.chroma/
+
+# IDE
+
+.vscode/
+.idea/

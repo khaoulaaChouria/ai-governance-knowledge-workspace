@@ -1,0 +1,673 @@
+{
+    "organizations": [
+        {
+            "name": "Artificial Intelligence Management System (AIMS)",
+            "description": "A systematic management system for establishing, implementing, operating, monitoring, reviewing, maintaining and improving an organization’s use of Artificial Intelligence.",
+            "source_text": "AIMS is a systematic approach for establishing, implementing, operating, monitoring, reviewing, maintaining and improving an organization’s use of Artificial Intelligence to achieve business objectives."
+        },
+        {
+            "name": "ISO/IEC 42001:2023",
+            "description": "The standard that provides the foundation for certification audits and a common model for implementing and operating an AIMS.",
+            "source_text": "ISO/IEC 42001:2023 is formally entitled, “ISO/IEC 42001:2023 Information technology — Artificial intelligence — Management system”"
+        },
+        {
+            "name": "Top management",
+            "description": "The group responsible for showing commitment to the AIMS and ensuring policy, objectives, resources, and continual improvement.",
+            "source_text": "The top management of the organization shall show commitment to the AIMS by doing the following:"
+        }
+    ],
+    "departments": [],
+    "roles": [
+        {
+            "name": "AIMS Core Team",
+            "description": "The team responsible for driving AIMS improvement, maintaining AI policy and documentation, reporting performance, and performing risk assessments.",
+            "source_text": "The AIMS Core Team is responsible for the following functions: ►Driving continuous improvement of the AIMS function overall ►Documenting and maintaining AB-Consultants AI policy and supporting documentation ►Reporting the performance of the AIMS program against established objectives to the management ►Performing ongoing risk assessments on all in-scope AI systems"
+        },
+        {
+            "name": "Chief Technology Officer (CTO)",
+            "description": "A role referenced as responsible for governance, policy approval, and decisions on the adequacy of AI controls.",
+            "source_text": "Chief Technology Officer (CTO) is responsible for the following functions: ►Governing the maintenance of policies and standards ►Making decisions on whether to accept the adequacy and associated risks of controls for AI Systems"
+        },
+        {
+            "name": "CISO",
+            "description": "A role referenced as governing the AIMS program, approving AI policies, and reviewing AI risks and controls.",
+            "source_text": "CISO is responsible for the following functions: ►Governing the AIMS program and its effectiveness ►Reviewing and approving Artificial Intelligence policies ►Reviewing the AI risks associated with operations and determining the levels of AI controls that are appropriate to protect such operations and systems."
+        },
+        {
+            "name": "Policy, Certification and Compliance (PCC) Audit Team",
+            "description": "The team responsible for interfacing with auditors, coordinating ISO audit activities, and compiling documentation for audits.",
+            "source_text": "The PCC audit team is responsible for the following functions: ►Interfacing with the external auditors and internal auditees and for coordinating and facilitating the ISO audit activities ►Compiling existing documentation and providing applicable AI contacts for audit where necessary"
+        },
+        {
+            "name": "Lead for Policy, Certification and Compliance (PCC)",
+            "description": "The role serving as the point of contact for AI policy, implementation, monitoring, and control evaluation.",
+            "source_text": "The Lead for PCC is responsible for the following functions: ►Overseeing AIMS Core Team’s functions including the development and ongoing support of the AIMS Program ►Serving as the point of contact for AI policy, implementation and monitoring ►Periodically testing and evaluating AI controls and ensure deficiencies are remediate appropriately"
+        },
+        {
+            "name": "AI System Owners",
+            "description": "The role responsible for ensuring users understand system requirements, restricting access, separating critical functions, and providing AI control measures.",
+            "source_text": "AI System Owners are responsible for the following functions: ►Ensuring that users understand AI system requirements, AI system rules and their responsibilities prior to them being granted system access ►Confirming that user’s access to system is restricted to the minimum necessary to perform their job ►Ensuring that responsibilities for critical functions are separated among different individuals and that a single individual cannot easily commit a fraudulent activity ►Providing the appropriate Artificial Intelligence control measures"
+        },
+        {
+            "name": "AIMS Owner(s)",
+            "description": "A role listed as relevant to AI governance and the AIMS.",
+            "source_text": "Chief Executive Officer (CEO) / Chief Operations Officer (COO) ... AIMS Owner(s)"
+        }
+    ],
+    "people": [],
+    "interested_parties": [
+        {
+            "name": "Interested parties",
+            "description": "Parties whose needs and expectations relevant to Artificial Intelligence must be understood for the AIMS.",
+            "source_text": "Before starting the design and implementation of the framework for managing AI systems, it is also important to define the interested parties relevant to AIMS as well as their expectations relevant to Artificial Intelligence."
+        },
+        {
+            "name": "Customers",
+            "description": "External interested parties whose expectations include protection of data and AI systems and compliance with applicable laws and regulations.",
+            "source_text": "Customers External Proper protection of customer data and AI systems demonstrated by being in control of Artificial Intelligence ... Compliance with the applicable laws and regulations."
+        },
+        {
+            "name": "Regulators",
+            "description": "External interested parties whose expectations include compliance with applicable laws and regulations and responses to investigations and enquiries.",
+            "source_text": "Regulators, Government and Authorities External Compliance with the applicable (Security, AI, Privacy) laws and regulations. Adopt an approach to update, meet and maintain these requirements. Prompt responses to investigations and enquiries."
+        },
+        {
+            "name": "Shareholders",
+            "description": "Interested parties whose expectations include maintaining company profits through safe and responsible use of AI.",
+            "source_text": "Investors and shareholders Internal / External Company profits are being maintained by ensuring safe and responsible use of AI."
+        },
+        {
+            "name": "Employees and contractors",
+            "description": "Internal interested parties who need clear instructions, AI awareness, and protection of employee data.",
+            "source_text": "Employees and contractors situated globally Internal Clear instructions on Artificial Intelligence and what is expected from them. Providing AI awareness sessions and protection of employee data."
+        },
+        {
+            "name": "Suppliers",
+            "description": "External interested parties involved in contractual arrangements and secure integration of applications or systems.",
+            "source_text": "Application vendors External Clear Artificial Intelligence requirements in the contractual arrangements. Secure integration of applications/systems according to contracts and relevant AI policies."
+        }
+    ],
+    "suppliers": [],
+    "ai_systems": [
+        {
+            "name": "AI system",
+            "description": "A machine-based system that infers from input how to generate outputs such as predictions, content, recommendations, or decisions.",
+            "source_text": "“An AI system is a machine-based system that, for explicit or implicit objectives, infers from the input it receives how to generate outputs such as predictions, content, recommendations, or decisions that can influence physical or virtual environments."
+        },
+        {
+            "name": "Generative AI",
+            "description": "A type of artificial intelligence that can create new content such as images, text, audio, or video based on training data.",
+            "source_text": "Generative AI is a type of artificial intelligence that can create new content such as images, text, audio, or video based on the data it has been trained on"
+        },
+        {
+            "name": "Machine Learning",
+            "description": "A subfield of artificial intelligence described as the capability of a machine to imitate intelligent human behaviour.",
+            "source_text": "Machine Learning is a subfield of artificial intelligence, which is broadly defined as the capability of a machine to imitate intelligent human behaviour."
+        },
+        {
+            "name": "Deep Learning",
+            "description": "A subset of machine learning defined as a neural network with three or more layers.",
+            "source_text": "Deep learning is a subset of machine learning, which is essentially a neural network with three or more layers."
+        }
+    ],
+    "assets": [
+        {
+            "name": "AI and AI related assets",
+            "description": "Artificial intelligence resources and related assets that require protection and management.",
+            "source_text": "Protection of AI and AI related assets and prevention of ► Unauthorized access ► Data/Algorithmic Modification ► Inconsistent output of data/actions ► Breach of private user data ► Use for unintended purposes ► Legal Noncompliance"
+        },
+        {
+            "name": "Information assets",
+            "description": "Information assets requiring protection of confidentiality, integrity, and availability.",
+            "source_text": "Protection of confidentiality, integrity and availability of information and information assets."
+        },
+        {
+            "name": "Customer data",
+            "description": "An example of information valued by the organization and subject to risk management.",
+            "source_text": "Customer data, operational procedures, records, etc."
+        },
+        {
+            "name": "Operational procedures",
+            "description": "Organizational procedures identified as valued assets.",
+            "source_text": "Customer data, operational procedures, records, etc."
+        },
+        {
+            "name": "Records",
+            "description": "Organizational records identified as valued assets.",
+            "source_text": "Customer data, operational procedures, records, etc."
+        },
+        {
+            "name": "Hardware",
+            "description": "Physical technology assets such as servers, routers, and firewalls.",
+            "source_text": "Hardware Servers, routers, firewalls, etc."
+        },
+        {
+            "name": "Software",
+            "description": "Software assets such as databases.",
+            "source_text": "Software Databases, etc."
+        },
+        {
+            "name": "People",
+            "description": "Human resources identified as assets valued by the organization.",
+            "source_text": "People Management, Development team, employees, etc."
+        },
+        {
+            "name": "Location",
+            "description": "Physical locations such as data centers and offices identified as assets.",
+            "source_text": "Location Data center locations, offices, etc."
+        }
+    ],
+    "applications": [],
+    "technologies": [
+        {
+            "name": "Large Language Models (LLM)",
+            "description": "A technology category referenced as part of AI development and use.",
+            "source_text": "Large Language Models (LLM)"
+        },
+        {
+            "name": "Computer Vision",
+            "description": "AI technology for processing, analyzing, and interpreting visual data.",
+            "source_text": "Computer Vision Programs that help computers process, analyze, and interpret visual data (e.g., digital images or video)"
+        },
+        {
+            "name": "transformer neural networks",
+            "description": "A technique cited as enabling generative AI to create new content.",
+            "source_text": "using techniques like large language models, transformer neural networks, and generative adversarial networks"
+        }
+    ],
+    "ai_models": [],
+    "datasets": [],
+    "business_processes": [
+        {
+            "name": "risk management process",
+            "description": "The process for establishing context, assessing, treating, accepting, monitoring, and communicating AI risk.",
+            "source_text": "The risk management lifecycle outlines the steps for effective management of the Artificial Intelligence risk management process: establish the context, risk assessment, risk treatment, risk acceptance, risk monitoring and risk communication"
+        },
+        {
+            "name": "Operational planning and control",
+            "description": "The process for planning, implementing, and controlling AI operations including outsourced relationships.",
+            "source_text": "Clause 8 — Operation covers operational planning and control, including Artificial Intelligence risk assessment and Artificial Intelligence risk treatment"
+        },
+        {
+            "name": "Management review",
+            "description": "A planned process to assess the AIMS for continuing suitability, adequacy, and effectiveness.",
+            "source_text": "Management review shall be conducted at planned intervals to ensure its continuing: Suitability Adequacy Effectiveness"
+        },
+        {
+            "name": "Internal audit programme",
+            "description": "The overall framework for a set of planned audits directed toward specific purposes.",
+            "source_text": "An audit programme describes the overall framework for a set of audits, planned for specific time frames and directed towards specific purposes."
+        },
+        {
+            "name": "Corrective action process",
+            "description": "A process used to address nonconformities through documented corrective actions and root cause analysis.",
+            "source_text": "Corrective actions must be documented using the nonconformity report if a nonconformity is raised during the audit and processed electronically."
+        }
+    ],
+    "lifecycle_stages": [
+        {
+            "name": "Development",
+            "description": "A stage of the AI lifecycle referenced in control objectives and risk discussions.",
+            "source_text": "development, deployment, operation, change management, maintenance, transfer and decommissioning"
+        },
+        {
+            "name": "Deployment",
+            "description": "A stage in the AI system lifecycle requiring documented deployment plans and pre-deployment requirements.",
+            "source_text": "The organization shall document a deployment plan and ensure that appropriate requirements are met prior to deployment."
+        },
+        {
+            "name": "Operation",
+            "description": "A stage in the AI system lifecycle covering ongoing use, monitoring, repairs, updates, and support.",
+            "source_text": "The organization shall define and document the necessary elements for the ongoing operation of the AI system."
+        },
+        {
+            "name": "Monitoring",
+            "description": "A lifecycle stage where AI systems are observed for performance, drift, and related risks.",
+            "source_text": "AI system operation and monitoring"
+        }
+    ],
+    "risks": [
+        {
+            "name": "AI risk",
+            "description": "Risk arising from AI systems that must be assessed, treated, accepted, monitored, and communicated.",
+            "source_text": "AIMS is based upon a risk assessment and the organization’s risk acceptance levels designed to effectively treat and manage risks."
+        },
+        {
+            "name": "Risk appetite",
+            "description": "The level of risk an organization is willing to accept.",
+            "source_text": "The basic objective in establishing the context of risk management is to know the risk appetite, or the level of risk that an organization is willing to accept."
+        },
+        {
+            "name": "Risk acceptance criteria",
+            "description": "Criteria defining which risks are acceptable and which require treatment.",
+            "source_text": "The level of risk that is acceptable should also be defined"
+        },
+        {
+            "name": "Risk treatment plan",
+            "description": "A plan for implementing selected controls and actions to reduce risks to acceptable levels.",
+            "source_text": "The risk treatment plan should consider the following factors and once formulated should be: ➢Aligned to the objectives of the organization ➢Available as documented information ➢Communicated within the organization"
+        }
+    ],
+    "threats": [
+        {
+            "name": "Cyber attacks",
+            "description": "Malicious use of AI that can increase the volume and impact of attacks.",
+            "source_text": "Malicious AI use will “almost certainly” drive an increase in the volume and impact of cyber-attacks over the next two years, especially ransomware"
+        },
+        {
+            "name": "Deepfakes",
+            "description": "AI-generated content that can be used to defame or spread false information.",
+            "source_text": "Attackers can use AI for creating deepfakes and misinformation campaigns to defame or spread false information about individuals."
+        },
+        {
+            "name": "Misinformation campaigns",
+            "description": "The use of AI to spread false or misleading information.",
+            "source_text": "Attackers can use AI for creating deepfakes and misinformation campaigns to defame or spread false information about individuals."
+        },
+        {
+            "name": "Fraud",
+            "description": "AI-enabled malicious activity identified as a cybercrime risk.",
+            "source_text": "AI can be exploited for malicious purposes like cyber attacks, creating complicated malware and fraud."
+        },
+        {
+            "name": "Autonomous weapons",
+            "description": "A destructive misuse of AI noted as an extreme harm scenario.",
+            "source_text": "It could be used for creating deadly autonomous weapons or facilitating cybercrimes."
+        }
+    ],
+    "vulnerabilities": [
+        {
+            "name": "Lack of transparency and explainability",
+            "description": "A risk source that can reduce understanding of AI behavior and decisions.",
+            "source_text": "Lack of transparency and explainability"
+        },
+        {
+            "name": "Weak access control mechanisms",
+            "description": "A vulnerability example involving inadequate access control.",
+            "source_text": "Weak access control mechanisms (AAA)"
+        },
+        {
+            "name": "Lack of logging/monitoring of unauthorized changes/activities",
+            "description": "A vulnerability example involving insufficient logging and monitoring.",
+            "source_text": "Lack of logging/monitoring of unauthorized changes/activities"
+        },
+        {
+            "name": "Lack of segregation of duties",
+            "description": "A vulnerability example involving insufficient separation of duties.",
+            "source_text": "Lack of segregation of duties"
+        },
+        {
+            "name": "Inadequate data governance",
+            "description": "A risk factor identified in the AI risk universe.",
+            "source_text": "Inadequate data governance"
+        }
+    ],
+    "incidents": [],
+    "controls": [
+        {
+            "name": "Annex A (normative) Reference control objectives and controls",
+            "description": "The normative set of AI control objectives and controls used for risk treatment in ISO/IEC 42001:2023.",
+            "source_text": "Annex A (normative) Reference control objectives and controls"
+        },
+        {
+            "name": "Statement of Applicability",
+            "description": "A mandatory document stating applicable control objectives and controls and the reasons for inclusion or exclusion.",
+            "source_text": "Statement of Applicability is a mandatory document specifying the controls, reasons for inclusion or exclusion of the controls."
+        },
+        {
+            "name": "AI policy",
+            "description": "A documented policy for the development or use of AI systems.",
+            "source_text": "The organization shall document a policy for the development or use of AI systems"
+        },
+        {
+            "name": "AI roles and responsibilities",
+            "description": "Roles and responsibilities for AI that must be defined and allocated according to organizational needs.",
+            "source_text": "Roles and responsibilities for AI shall be defined and allocated according to the needs of the organization."
+        },
+        {
+            "name": "Reporting of concerns",
+            "description": "A process to report concerns about the organization’s role with respect to an AI system throughout its life cycle.",
+            "source_text": "The organization shall define and put in place a process to report concerns about the organization’s role with respect to an AI system throughout its life cycle."
+        },
+        {
+            "name": "Resource documentation",
+            "description": "A control requiring documentation of relevant resources needed for AI lifecycle activities.",
+            "source_text": "The organization shall identify and document relevant resources required for the activities at given AI system life cycle stages and other AI-related activities relevant for the organization."
+        },
+        {
+            "name": "AI system impact assessment process",
+            "description": "A process to assess potential consequences for individuals, groups, and societies throughout the AI system life cycle.",
+            "source_text": "The organization shall establish a process to assess the potential consequences for individuals or groups of individuals, or both, and societies that can result from the AI system throughout its life cycle."
+        },
+        {
+            "name": "AI system verification and validation",
+            "description": "Defined and documented verification and validation measures and criteria for AI systems.",
+            "source_text": "The organization shall define and document verification and validation measures for the AI system and specify criteria for their use"
+        },
+        {
+            "name": "Data provenance",
+            "description": "A process for recording the provenance of data used in AI systems over the lifecycle of the data and AI system.",
+            "source_text": "The organization should define and document a process for recording the provenance of data used in its AI systems over the life cycles of the data and the AI system."
+        },
+        {
+            "name": "Communication of incidents",
+            "description": "A plan for communicating incidents to users of the AI system.",
+            "source_text": "The organization shall determine and document a plan for communicating incidents to users of the AI system."
+        },
+        {
+            "name": "Processes for responsible use of AI systems",
+            "description": "Documented processes for the responsible use of AI systems.",
+            "source_text": "The organization shall define and document the processes for the responsible use of AI systems."
+        },
+        {
+            "name": "Intended use of the AI system",
+            "description": "A requirement to use the AI system according to its intended uses and accompanying documentation.",
+            "source_text": "The organization shall ensure that the AI system is used according to the intended uses of the AI system and its accompanying documentation."
+        }
+    ],
+    "policies": [
+        {
+            "name": "Artificial Intelligence policy",
+            "description": "The organization’s AI policy that is available as documented information, communicated, and aligned to objectives and requirements.",
+            "source_text": "The organization shall ensure that the AIMS policy is: ►available as documented information ►communicated within the organization ►available to interested parties, as appropriate"
+        },
+        {
+            "name": "Code of conduct",
+            "description": "A high-level policy referenced as part of the policy framework for AI.",
+            "source_text": "High-level general policies: • Code of conduct"
+        },
+        {
+            "name": "Integrated Management System Policies",
+            "description": "High-level policies referenced as part of the policy framework for AI.",
+            "source_text": "High-level general policies: • Integrated Management System Policies"
+        },
+        {
+            "name": "AI Data policy",
+            "description": "A topic-specific policy referenced under the AI policy framework.",
+            "source_text": "Topic-specific policies: • AI Data policy"
+        },
+        {
+            "name": "AI input requirements",
+            "description": "A topic-specific policy or requirement area referenced under the AI policy framework.",
+            "source_text": "Topic-specific policies: • AI input requirements"
+        }
+    ],
+    "procedures": [
+        {
+            "name": "Data preparation",
+            "description": "A defined method for selecting and preparing data for AI systems.",
+            "source_text": "The organization shall define and document its criteria for selecting data preparations and the data preparation methods to be used."
+        },
+        {
+            "name": "AI risk assessment process",
+            "description": "The documented process for assessing AI risks.",
+            "source_text": "►Risk assessment process (6.1.2)"
+        },
+        {
+            "name": "Risk treatment process",
+            "description": "The documented process for treating AI risks.",
+            "source_text": "►Risk treatment process (6.1.3)"
+        },
+        {
+            "name": "Communication plan",
+            "description": "The documented plan for communication relevant to the AIMS.",
+            "source_text": "►Communication plan (7.4)"
+        },
+        {
+            "name": "Operational planning and control",
+            "description": "The documented operational control process for the AIMS.",
+            "source_text": "►Operational planning and control (8.1)"
+        }
+    ],
+    "standards": [
+        {
+            "name": "ISO 19011",
+            "description": "The guideline standard referenced for conducting internal audits in detail.",
+            "source_text": "Guidelines on how to perform an internal audit in detail can be found in the ISO 19011."
+        },
+        {
+            "name": "ISO 9001",
+            "description": "An example management system standard cited in the course.",
+            "source_text": "Examples of management system standards: Quality Management Systems (QMS) ISO 9001"
+        },
+        {
+            "name": "ISO/IEC 27001",
+            "description": "An example management system standard cited as an information security management system standard.",
+            "source_text": "Information Security Management System (ISMS) ISO/IEC 27001"
+        }
+    ],
+    "legal_requirements": [
+        {
+            "name": "AI Act",
+            "description": "The proposed EU regulation that categorizes AI systems by risk level and applies to providers and users.",
+            "source_text": "The AI Act, proposed by the European Commission, aims to regulate AI use in the EU, applying to providers and users both within the EU and in third countries whose outputs affect the Union."
+        },
+        {
+            "name": "Applicable legal requirements",
+            "description": "Legal requirements relevant to AI use, including prohibited use of AI.",
+            "source_text": "Applicable Legal requirements, including prohibited use of AI"
+        },
+        {
+            "name": "Copyright law",
+            "description": "A legal area implicated by AI training data and generated outputs.",
+            "source_text": "AI has been trained on copyrighted information."
+        },
+        {
+            "name": "Data privacy regulations",
+            "description": "Legal requirements governing privacy and data use in AI contexts.",
+            "source_text": "This involves securing ample knowledge about legal limitations, data privacy regulations, and other law-driven stipulations, ensuring full compliance"
+        }
+    ],
+    "objectives": [
+        {
+            "name": "AI objectives",
+            "description": "Objectives for AI at relevant functions and levels that must align with the AI policy and be monitored and updated.",
+            "source_text": "The organization shall define Artificial Intelligence objectives at relevant functions and levels."
+        },
+        {
+            "name": "AI governance and objectives",
+            "description": "A lesson topic emphasizing governance objectives for AI management.",
+            "source_text": "Lesson 8: Artificial Intelligence Objectives"
+        },
+        {
+            "name": "Continual improvement",
+            "description": "The ongoing improvement of the AIMS's suitability, adequacy, and effectiveness.",
+            "source_text": "the standard requires the organization shall continually improve the suitability, adequacy and effectiveness of the Artificial Intelligence Management System."
+        },
+        {
+            "name": "Responsible development objectives",
+            "description": "Objectives that guide the responsible development of AI systems.",
+            "source_text": "The organization shall identify and document objectives to guide the responsible development AI systems"
+        },
+        {
+            "name": "Responsible use objectives",
+            "description": "Objectives that guide the responsible use of AI systems.",
+            "source_text": "The organization shall identify and document objectives to guide the responsible use of AI systems."
+        }
+    ],
+    "resources": [
+        {
+            "name": "Resources",
+            "description": "Resources required to implement and sustain the AIMS, including human, financial, technical, documentation, and communication resources.",
+            "source_text": "Clause 7.1 - Resources ►Human resources ►Financial resources ►Technical resources ►Documentation resources ►Communication resources"
+        },
+        {
+            "name": "Competence",
+            "description": "The required capability of resources involved in the AIMS.",
+            "source_text": "Clause 7.2 – Competence"
+        },
+        {
+            "name": "Human resources",
+            "description": "Human resources required for AI system lifecycle activities.",
+            "source_text": "Control Ref A.4.6 Human resources Control Objective As part of resource identification, the organization shall document information about the human resources and their competences"
+        },
+        {
+            "name": "Financial resources",
+            "description": "Financial resources needed for implementing and improving the AIMS.",
+            "source_text": "An AIMS needs financial resources, personnel with adequate training or experience, suitable facilities, and technical infrastructure"
+        },
+        {
+            "name": "Technical resources",
+            "description": "Technical resources needed for the AIMS, including infrastructure.",
+            "source_text": "Clause 7.1 - Resources ►Human resources ►Financial resources ►Technical resources ►Documentation resources ►Communication resources"
+        },
+        {
+            "name": "Documentation resources",
+            "description": "Documentation resources needed to support the AIMS.",
+            "source_text": "Clause 7.1 - Resources ►Human resources ►Financial resources ►Technical resources ►Documentation resources ►Communication resources"
+        }
+    ],
+    "documents": [
+        {
+            "name": "Documented information",
+            "description": "Information required by the AIMS that must be created, updated, controlled, and retained.",
+            "source_text": "the organization shall develop and maintain all documented information required by the ISO/IEC 42001:2023 standard."
+        },
+        {
+            "name": "Context of the organization",
+            "description": "Documented information covering organizational context, interested parties, scope, and the AIMS.",
+            "source_text": "►Context of the organization (4.1, 4.2, 4.3 and 4.4)"
+        },
+        {
+            "name": "Leadership commitment",
+            "description": "Documented evidence of leadership commitment to the AIMS.",
+            "source_text": "►Leadership commitment (5.1)"
+        },
+        {
+            "name": "Organizational roles and responsibilities",
+            "description": "Documented information defining AI roles and responsibilities.",
+            "source_text": "►Organizational roles and responsibilities (5.3)"
+        },
+        {
+            "name": "Evidence of competence",
+            "description": "Documented evidence of competence.",
+            "source_text": "►Evidence of competence (7.2d)"
+        },
+        {
+            "name": "Awareness program",
+            "description": "Documented awareness activities supporting the AIMS.",
+            "source_text": "►Awareness program (7.3)"
+        },
+        {
+            "name": "Communication plan",
+            "description": "Documented plan for AIMS communications.",
+            "source_text": "►Communication plan (7.4)"
+        },
+        {
+            "name": "Statement of Applicability",
+            "description": "Documented statement of applicable controls and reasons for inclusion or exclusion.",
+            "source_text": "Statement of Applicability is a mandatory document specifying the controls, reasons for inclusion or exclusion of the controls."
+        },
+        {
+            "name": "Results of the risk assessments",
+            "description": "Documented results of AI risk assessments.",
+            "source_text": "►Results of the risk assessments (8.2)"
+        },
+        {
+            "name": "Results of the risk treatment",
+            "description": "Documented results of AI risk treatment.",
+            "source_text": "►Results of the risk treatment (8.3)"
+        },
+        {
+            "name": "Evidence of the monitoring and measurement results",
+            "description": "Documented evidence of monitoring and measurement results.",
+            "source_text": "►Evidence of the monitoring and measurement results (9.1)"
+        },
+        {
+            "name": "Evidence of the audit program(s) and the audit results",
+            "description": "Documented evidence of audit program execution and results.",
+            "source_text": "►Evidence of the audit program(s) and the audit results (9.2g)"
+        },
+        {
+            "name": "Evidence of the results of management reviews",
+            "description": "Documented evidence of management review results.",
+            "source_text": "►Evidence of the results of management reviews (9.3)"
+        },
+        {
+            "name": "Evidence of the nature of the nonconformities and any subsequent actions taken",
+            "description": "Documented evidence of nonconformities and subsequent actions.",
+            "source_text": "►Evidence of the nature of the nonconformities and any subsequent actions taken (10.2f)"
+        }
+    ],
+    "evidence": [
+        {
+            "name": "Audit results",
+            "description": "Evidence produced by the audit program and communicated to management.",
+            "source_text": "►Evidence of the audit program(s) and the audit results (9.2g)"
+        },
+        {
+            "name": "Management review results",
+            "description": "Evidence of management review outputs and decisions.",
+            "source_text": "►Evidence of the results of management reviews (9.3)"
+        },
+        {
+            "name": "Nonconformity records",
+            "description": "Records showing the nature of nonconformities and subsequent actions taken.",
+            "source_text": "►Evidence of the nature of the nonconformities and any subsequent actions taken (10.2f)"
+        }
+    ],
+    "audits": [
+        {
+            "name": "Certification audits",
+            "description": "Audits for which ISO/IEC 42001:2023 serves as the foundation.",
+            "source_text": "Its purpose is to serve as the foundation for certification audits"
+        },
+        {
+            "name": "Internal audits",
+            "description": "Planned audits used to determine conformity, implementation, and maintenance of the AIMS.",
+            "source_text": "The organization shall conduct internal audits at planned intervals to determine whether the control objectives, controls, processes and procedures of its AIMS:"
+        }
+    ],
+    "monitoring_activities": [
+        {
+            "name": "Monitoring, Measurement, Analysis and Evaluation",
+            "description": "The AIMS activity for evaluating AI performance and AIMS effectiveness.",
+            "source_text": "►9.1 Monitoring, Measurement, Analysis and Evaluation"
+        },
+        {
+            "name": "Risk monitoring",
+            "description": "Continuous monitoring of risks to detect changes in context and maintain an overview of the risk picture.",
+            "source_text": "Risk monitoring is important for detecting any changes in the context of the organization, and to maintain an overview of the complete risk management process."
+        },
+        {
+            "name": "AI system operation and monitoring",
+            "description": "Ongoing monitoring of AI system operation, performance, repairs, updates, and support.",
+            "source_text": "The organization shall define and document the necessary elements for the ongoing operation of the AI system. At the minimum, this should include system and performance monitoring, repairs, updates and support."
+        }
+    ],
+    "ai_principles": [],
+    "ethical_principles": [
+        {
+            "name": "Fairness",
+            "description": "A priority objective and concern associated with AI systems.",
+            "source_text": "Accountability AI expertise Availability and quality of training and test data Environmental impact Robustness Privacy Maintainability Fairness Transparency and explainability Security Safety"
+        },
+        {
+            "name": "Transparency and explainability",
+            "description": "A priority objective and concern associated with AI systems.",
+            "source_text": "Accountability AI expertise Availability and quality of training and test data Environmental impact Robustness Privacy Maintainability Fairness Transparency and explainability Security Safety"
+        },
+        {
+            "name": "Privacy",
+            "description": "A priority objective and concern associated with AI systems and a key concern in AI risk management.",
+            "source_text": "Accountability AI expertise Availability and quality of training and test data Environmental impact Robustness Privacy Maintainability Fairness Transparency and explainability Security Safety"
+        },
+        {
+            "name": "Accountability",
+            "description": "A priority objective and concern associated with AI systems.",
+            "source_text": "Accountability AI expertise Availability and quality of training and test data Environmental impact Robustness Privacy Maintainability Fairness Transparency and explainability Security Safety"
+        },
+        {
+            "name": "Safety",
+            "description": "A priority objective and concern associated with AI systems.",
+            "source_text": "Accountability AI expertise Availability and quality of training and test data Environmental impact Robustness Privacy Maintainability Fairness Transparency and explainability Security Safety"
+        }
+    ],
+    "other_entities": [
+        {
+            "name": "Proprietary to EY",
+            "description": "A proprietary notice stating the material is not to be shared or used without permission.",
+            "source_text": "Disclaimer: This material is proprietary to EY and is not to be shared or used without permission of EY CertifyPoint."
+        }
+    ]
+}
